@@ -1,12 +1,14 @@
 package com.ldl.troubleweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * 功能：
  * 描述：
  * time：2019/3/13
  * Created by 李达龙
  */
-public class County {
+public class County extends DataSupport {
 
     private int id;
     private String countyName;
